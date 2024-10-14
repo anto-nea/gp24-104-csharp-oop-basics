@@ -8,11 +8,11 @@ public class Player
 
     public string PrintClassVariables()
     {
-        return this.Name + * * + this.Health + * * + this.Mana;
+        return this.Name + " ** " + this.Health + " ** " + this.Mana;
     }
 
 void SomethingPrivate()
-{
+    {
     Console.WriteLine("Something private");
-}
+    }
 }
